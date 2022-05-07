@@ -36,7 +36,7 @@ predicao.rename({
   0 : "Iris-setosa",
   1 : "Iris-versicolor",
   2 : "Iris-vergínica"
-}, axis = 1, inplace = True
+}, axis = 1, inplace = True)
   
 st.write("Probabilidades")
 st.write(predicao)
