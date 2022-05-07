@@ -11,5 +11,5 @@ st.sidebar.slider("Comprimento da sépala", 4.0, 8.0, 5.8, 0.1)
 st.sidebar.slider("Comprimento da pétala", 0.9, 7.0, 3.8, 0.1)
 
 arquivo = open("objetos.pkl", "rb")
-pickle.load = ss, dtc
+pickle.load(arquivo) = ss, dtc
 arquivo.close()
