@@ -30,7 +30,7 @@ predicao = dtc.predict(df)
 st.write(f"A classe dessa flor é: **{predicao[0]}")
 
 predicao = dtc.predict_proba(df)
-predicao = pdf.DataFrame(predicao)
+predicao = pd.DataFrame(predicao)
 
 predicao.rename({
   0 : "Iris-setosa",
