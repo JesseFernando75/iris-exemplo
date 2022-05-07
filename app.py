@@ -26,5 +26,5 @@ st.write(df)
 df = ss.transform(df)
 st.write(df)
 
-predicao dtc.predict(df)
+predicao = dtc.predict(df)
 st.write(f"A classe dessa flor é: **{predicao}")
