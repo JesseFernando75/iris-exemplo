@@ -18,5 +18,5 @@ arquivo.close()
 estrutura = {'comp_sepala': comp_sepala,
              'comp_petala : comp_petala}
 
-df = pd.DataFrame(estrutura)
+df = pd.DataFrame(estrutura, index = [0])
 st.write(df)
